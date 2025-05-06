@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('(-: Hello Joah Lenzo - here your first Webapplication with node.js and build with Dockerfile :-)');
+  res.send('(-: Hello Joah Lenzo - here your first Webapplication with node.js and build with Dockerfile :-) Complete pipeline now');
 });
 
 app.listen(PORT, HOST);
